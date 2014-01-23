@@ -1,6 +1,8 @@
 working-open-data-2014
 ======================
 
+Our bCourses site (login required): http://is.gd/wwod14bc
+
 Repo for Working with Open Data (Spring 2014 edition), a course at the School of Information, UC Berkeley
 
 #### Day 1 (Tues, 2014.01.21)
