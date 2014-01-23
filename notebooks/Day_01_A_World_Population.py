@@ -14,7 +14,7 @@
 # * to learn a bit about the international context before diving into the US Census.
 # * to get ourselves into looking at the Wikipedia as a data source.
 # 
-# Thinking about populations of various geographic entities is a good place to start with open data.  We can to work with numbers without necessarily involving complicated mathematics.  Just addition if we're lucky. We can also think about geographical locations.  We can build out from our initial explorations in a systematica manner.
+# Thinking about populations of various geographic entities is a good place to start with open data.  We can to work with numbers without necessarily involving complicated mathematics.  Just addition if we're lucky. We can also think about geographical locations.  We can build out from our initial explorations in a systematic manner.
 
 # <headingcell level=1>
 
@@ -24,10 +24,10 @@
 
 # Off the top of your head:
 #     
-#     * What do you think is the current world population?
-#     * How many countries are there?
-#     * How many people are there in the USA?  Canada?  Mexico?  Your favorite country?
-#     * What is the minimum number of countries to add up to 50% of the world's population?  How about 90%?
+#   * What do you think is the current world population?
+#   * How many countries are there?
+#   * How many people are there in the USA?  Canada?  Mexico?  Your favorite country?
+#   * What is the minimum number of countries to add up to 50% of the world's population?  How about 90%?
 #     
 # Now go answer these questions looking on the web.  Find some a source or two or three.
 
