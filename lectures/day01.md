@@ -14,7 +14,8 @@ INFO 290T- Working with Open Data
 [http://www.ischool.berkeley.edu/courses/290t-wod](http://www.ischool.berkeley.edu/courses/290t-wod)
 Spring 2014 / CCN: 41620   
 T,Th 2:00-3:30pm 202 South Hall  
-Office Hours:  T, Th 3:30-4:30pm, 303A South Hall (**might be changed**)  
+Office Hours:  T, Th 3:30-4:30pm, 302 South Hall (along with *possible
+virtual office hours*)  
 Instructor:  Raymond Yee, Ph.D.  
 Contact info:  <yee@berkeley.edu> \
 Twitter: [\@WorkingOpenData](https://twitter.com/WorkingOpenData) /
@@ -124,11 +125,11 @@ Raymond Yee:
 
 # Course Outline
 
-**Last revised: 2014.01.20**
+**Last revised: 2014.01.28**
 
   1. [Introduction to Working with Open Data](http://is.gd/wwod1401)
   2. [Setting Up for Python & IPython](http://is.gd/wwod1402)
-  3. NumPy and Getting started with pandas I (Chap 4, 5)
+  3. [Setting Up Cont'd: Environments and Contexts](http://is.gd/wwod1403)
   4. 
   5. 
   6. 
