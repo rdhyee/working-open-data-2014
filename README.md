@@ -15,3 +15,7 @@ Repo for Working with Open Data (Spring 2014 edition), a course at the School of
 
 * Slides: http://is.gd/wwod1402
 * Assignment/Homework: http://rdhyee.github.io/wwod14/day02.html#(13)
+
+#### Day 3 (Thurs, 2014.01.28)
+
+* Slides: http://is.gd/wwod1403
