@@ -239,18 +239,8 @@ ca_counties = c.sf1.get(('NAME', 'P0010001'), geo={'for': 'county:*', 'in': 'sta
 
 # <codecell>
 
-np.dtype(('P0010001', np.int))
-
-# <codecell>
-
-d = {'pop': '4', 'name':'CA'}
-
-# <codecell>
-
-#dtype = {'P0010001':np.int, 'NAME':np.object, 'county':np.object, 'state':np.object}
-#dtype = {'P0010001':np.dtype(np.int)}
-#dtype = np.dtype([('P0010001', np.int)])
-#dtype=[('P0010001', 'i4')]
+# create a DataFrame, convert the 'P0010001' column
+# show by descending population
 df = DataFrame(ca_counties)
 df['P0010001'] = df['P0010001'].astype('int')
 df.sort_index(by='P0010001', ascending=False)
@@ -260,8 +250,4 @@ df.sort_index(by='P0010001', ascending=False)
 #http://stackoverflow.com/a/13130357/7782
 count,division = np.histogram(df['P0010001'])
 df['P0010001'].hist(bins=division)
-
-# <codecell>
-
-type(df['P0010001'].astype('int'))
 
