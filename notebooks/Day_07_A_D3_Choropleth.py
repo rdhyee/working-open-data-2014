@@ -7,11 +7,11 @@
 # 
 # The first thing I did was to make sure I could get 
 # 
-# <http://bl.ocks.org/mbostock/raw/4060606/>
+#  <http://bl.ocks.org/mbostock/raw/4060606/>
 # 
 # to work by copying the source to
 # 
-# <http://mashupguide.net/wwod14/mbostock_4060606.html>
+#  <http://mashupguide.net/wwod14/mbostock_4060606.html>
 # 
 # and serving `us.json` and `unemployment.tsv` from my server with [CORS enabled](http://enable-cors.org/) for these two files:
 # 
@@ -80,9 +80,9 @@ require(["d3"], function(d3) {
 #     
 # with 
 # 
-#   * `d3`: http://cdnjs.cloudflare.com/ajax/libs/d3/3.2.2/d3.v3.min.js
-#   * `queue`: http://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.4/queue.min.js
-#   * `topojson`: http://cdnjs.cloudflare.com/ajax/libs/topojson/1.1.0/topojson.min.js
+#   * `d3`: <http://cdnjs.cloudflare.com/ajax/libs/d3/3.2.2/d3.v3.min.js>
+#   * `queue`: <http://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.4/queue.min.js>
+#   * `topojson`: <http://cdnjs.cloudflare.com/ajax/libs/topojson/1.1.0/topojson.min.js>
 # 
 # The [result](http://mashupguide.net/wwod14/mbostock_4060606_2.html) was something that half-worked.  SVG was produced but nothing was visible, unless you delete the styling.  *As of this moment (2014.02.10), I've not tracked down the reasons for the discrepancy*.
 # 
