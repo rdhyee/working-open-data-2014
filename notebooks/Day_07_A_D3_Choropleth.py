@@ -7,16 +7,16 @@
 # 
 # The first thing I did was to make sure I could get 
 # 
-# http://bl.ocks.org/mbostock/raw/4060606/
+# <http://bl.ocks.org/mbostock/raw/4060606/>
 # 
 # to work by copying the source to
 # 
-# http://mashupguide.net/wwod14/mbostock_4060606.html
+# <http://mashupguide.net/wwod14/mbostock_4060606.html>
 # 
 # and serving `us.json` and `unemployment.tsv` from my server with [CORS enabled](http://enable-cors.org/) for these two files:
 # 
-#  * http://mashupguide.net/wwod14/us.json
-#  * http://mashupguide.net/wwod14/unemployment.tsv
+#  * <http://mashupguide.net/wwod14/us.json>
+#  * <http://mashupguide.net/wwod14/unemployment.tsv>
 #  
 # With the map working on standalone HTML page, then I turned to embedding the map inside an IPython notebook. That's where it got really interesting!
 
@@ -193,4 +193,7 @@ require(["d3", "queue", "topojson"], function(d3, queue, topojson) {
     }
     
 })
+
+# <codecell>
+
 
