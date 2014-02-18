@@ -41,6 +41,8 @@ Write a 1-2 page proposal on how your group (of 2-3 team members) will conduct a
 
 # Announcements
 
-[CodeAcross San Francisco- Eventbrite](http://www.eventbrite.com/e/codeacross-san-francisco-tickets-10521326571)
+* Answers published for 2nd Notebook assignment: [nbviewer.ipython.org/github/rdhyee/working-open-data-2014/blob/master/notebooks/Day_06_E_Assignment_Answers.ipynb](http://nbviewer.ipython.org/github/rdhyee/working-open-data-2014/blob/master/notebooks/Day_06_E_Assignment_Answers.ipynb)
+
+* [CodeAcross San Francisco- Eventbrite](http://www.eventbrite.com/e/codeacross-san-francisco-tickets-10521326571)
 --> I'll be there this Saturday.  Anyone want to join in?
 
