@@ -1,4 +1,4 @@
-% Day 8:  TBD
+% Day 8:  Calculating Diversity II
 % Raymond Yee 
 % February 13, 2014 (<http://is.gd/wwod1408>)
 

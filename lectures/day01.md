@@ -125,17 +125,17 @@ Raymond Yee:
 
 # Course Outline
 
-**Last revised: 2014.01.28**
+**Last revised: 2014.02.18**
 
   1. [Introduction to Working with Open Data](http://is.gd/wwod1401)
   2. [Setting Up for Python & IPython](http://is.gd/wwod1402)
   3. [Setting Up Cont'd: Environments and Contexts](http://is.gd/wwod1403)
-  4. 
-  5. 
-  6. 
-  7. 
-  8. 
-  9. 
+  4. [Numpy & Pandas Intro](http://is.gd.wwod1404)
+  5. [Geographical Hierarchies in the Census](http://is.gd/wwod1405)
+  6. [Generators for Geographic Entities](http://is.gd/wwod1406)
+  7. [Calculating Diversity I](http://is.gd/wwod1407)
+  8. [Calculating Diversity II](http://is.gd/wwod1408)
+  9. [Creating Projects](http://is.gd/wwod1409)
   10. 
   11. 
   12. 
@@ -164,9 +164,9 @@ Raymond Yee:
 
 # Major Deadlines
 
- * Project Progress Report: TBD
+ * Project Progress Report: March 15, 2014 11:59pm
  * Mid-term exam: Tuesday, March 18, 2014 (Day 17)
- * In-class presentations: April 29, 2014 and May 1, 2014  (Day 27 & Day 28)
+ * In-class presentations: April 24, April 29, and May 1, 2014  (Days 26, 27, & Day 28)
 * Submission of Final Report and Open House/ Poster Session: Tuesday, May 6, 2014 (Day 29)
 
 **It is the student’s responsibility to notify the instructor(s) in
