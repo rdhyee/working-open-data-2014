@@ -125,7 +125,7 @@ Raymond Yee:
 
 # Course Outline
 
-**Last revised: 2014.02.18**
+**Last revised: 2014.02.20**
 
   1. [Introduction to Working with Open Data](http://is.gd/wwod1401)
   2. [Setting Up for Python & IPython](http://is.gd/wwod1402)
@@ -136,7 +136,7 @@ Raymond Yee:
   7. [Calculating Diversity I](http://is.gd/wwod1407)
   8. [Calculating Diversity II](http://is.gd/wwod1408)
   9. [Creating Projects](http://is.gd/wwod1409)
-  10. 
+  10. [Calculating Diversity III](http://is.gd/wwod1410)
   11. 
   12. 
   13. 
