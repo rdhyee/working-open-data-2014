@@ -48,7 +48,8 @@ I'd gladly help any of you flesh out any of these ideas:
 * build a campus org chart -- a people finder
 
 * surfacing images and recontextualizing data in
-  [Open Context: Data Publication for Cultural Heritage and Field Research](http://opencontext.org/)
+  [Open Context: Data Publication for Cultural Heritage and Field Research](http://opencontext.org/). See
+  [Project-Starter_OpenContext.ipynb](http://nbviewer.ipython.org/github/rdhyee/working-open-data-2014/blob/master/notebooks/Project-Starter_OpenContext.ipynb)
 
 * [Free Law Project](http://freelawproject.org/):   reconciling court
   cases to Wikipedia and win at 
