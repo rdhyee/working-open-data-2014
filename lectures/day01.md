@@ -137,7 +137,7 @@ Raymond Yee:
   8. [Calculating Diversity II](http://is.gd/wwod1408)
   9. [Creating Projects](http://is.gd/wwod1409)
   10. [Calculating Diversity III](http://is.gd/wwod1410)
-  11. 
+  11. [Looking Ahead to Projects, Plotting, and Baby Names](http://is.gd/wwod1410)
   12. 
   13. 
   14. 

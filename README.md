@@ -47,3 +47,7 @@ Repo for Working with Open Data (Spring 2014 edition), a course at the School of
 ### Day 10 (Thurs, 2014.02.20)
 
 * Slides: http://is.gd/wwod1410
+
+### Day 11 (Tues, 2014.02.25)
+
+* Slides: http://is.gd/wwod1411
