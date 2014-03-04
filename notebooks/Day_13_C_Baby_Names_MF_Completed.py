@@ -28,7 +28,9 @@ import pandas as pd
 
 try:
     import mpld3
-    mpld3.enable_notebook()
+    from mpld3 import enable_notebook
+    from mpld3 import plugins
+    enable_notebook()
 except Exception as e:
     print "Attempt to import and enable mpld3 failed", e
 
@@ -561,10 +563,6 @@ k2.groupby(np.sign(k2.slope)).count()
 
 # <codecell>
 
-p_m_cum.Kara.plot()
-
-# <codecell>
-
 popular_names_with_shifts = k2[(k2.total_pop>10000) & (abs(k2.slope)>80)]
 popular_names_with_shifts.sort_index(by="slope", ascending=False)
 
@@ -579,7 +577,24 @@ plt.scatter(np.log10(popular_names_with_shifts.total_pop), popular_names_with_sh
 
 # <codecell>
 
-popular_names_with_shifts.to_pickle('popular_names_with_shifts.pickle')
+#popular_names_with_shifts.to_pickle('popular_names_with_shifts.pickle')
+
+# <codecell>
+
+fig, ax = plt.subplots(subplot_kw=dict(axisbg='#EEEEEE'))
+x, y = np.log10(popular_names_with_shifts.total_pop), popular_names_with_shifts.slope
+
+
+scatter = ax.scatter(x, y)
+
+ax.grid(color='white', linestyle='solid')
+
+ax.set_title("Scatter Plot (with tooltips!)", size=20)
+
+#labels = ['point {0}'.format(i + 1) for i in range(len(x))]
+labels = list(popular_names_with_shifts.index)
+tooltip = plugins.PointLabelTooltip(scatter, labels=labels)
+plugins.connect(fig, tooltip)
 
 # <codecell>
 
