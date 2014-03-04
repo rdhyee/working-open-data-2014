@@ -7,8 +7,7 @@
 
 # <markdowncell>
 
-# 
-# * focus on a specific problem with the baby names database: compute the change in the sex of persons with given names
+# The focus of this notebook is on baby names that have been given to both male and female. 
 
 # <codecell>
 
@@ -187,6 +186,14 @@ np.allclose(names.groupby(['year', 'sex']).prop.sum(), 1)
 
 len(names)
 
+# <headingcell level=1>
+
+# How to do top1000 calculation
+
+# <markdowncell>
+
+# This section on the top1000 calculation is kept in here to provide some inspiration on how to work with baby names
+
 # <codecell>
 
 #  from book: useful to work with top 1000 for each year/sex combo
@@ -239,52 +246,21 @@ most_common_names.head()
 
 # <codecell>
 
+# as of mpl v 0.1 (2014.03.04), the name labeling doesn't work -- so disble mpld3 for this figure
+
 mpld3.disable_notebook()
 plt.figure()
 most_common_names[:50][::-1].plot(kind='barh', figsize=(10,10))
 
 # <codecell>
 
+# turn mpld3 back on
+
 mpld3.enable_notebook()
 
 # <headingcell level=1>
 
-# Starts and Ends of Names
-
-# <markdowncell>
-
-# We go from 1880 to 2010. 
-# 
-# It might be helpful to calculate a cumulative sum for all names...
-# 
-# * For a name start to happen --> look for the the first non-zero value 
-# * For a name death to happen, the cumulative sum has to reach max.
-# 
-
-# <codecell>
-
-# replace n/a with 0 -- might not actually need to do this
-
-top_births = top_births.fillna(0)
-
-# <codecell>
-
-top_births_cumsum = top_births.apply(lambda s: s.cumsum(), axis=0)
-
-# <codecell>
-
-def start_end_years(s):
-    active_years = s.index[s > 0]
-    max_years = s.index[s == s.irow(-1)]
-    return Series({'start': active_years[0] if len(active_years) else None,
-                   'end': max_years[0] })
-    
-    
-top_births_cumsum.apply(start_end_years)
-
-# <headingcell level=2>
-
-# start/end calc with whole data set
+# all_births pivot table
 
 # <codecell>
 
@@ -307,43 +283,6 @@ all_births_cumsum = all_births.apply(lambda s: s.cumsum(), axis=0)
 
 all_births_cumsum.tail()
 
-# <codecell>
-
-def start_end_years(s):
-    active_years = s.index[s > 0]
-    max_years = s.index[s == s.irow(-1)]
-    return Series({'start': active_years[0] if len(active_years) else None,
-                   'end': max_years[0] })
-    
-    
-all_start_end = all_births_cumsum.apply(start_end_years)
-
-# <codecell>
-
-#all_start_end.to_pickle('Day_13_Baby_Names_all_start_end.pickle')
-#all_start_end = pd.read_pickle('Day_13_Baby_Names_all_start_end.pickle')
-
-# <codecell>
-
-all_start_end.tail()
-
-# <codecell>
-
-vc_start = all_start_end.ix['start'].value_counts()
-vc_end = all_start_end.ix['end'].value_counts()
-
-fig = plt.figure()
-ax1 = fig.add_subplot(111)
-plt.ylim(0,2000)
-ax1.scatter(vc_start.index, vc_start, c='b')
-ax1.scatter(vc_end.index, vc_end, c='r')
-ax1.set_xlabel('year')
-ax1.set_xlabel('number of starts/ends')
-
-plt.tight_layout()
-
-plt.show()
-
 # <headingcell level=2>
 
 # Names that are both M and F
@@ -360,53 +299,28 @@ names.head()
 
 names.columns
 
-# <codecell>
+# <headingcell level=2>
 
-# forgive my use of the non-descriptive k, k1 here
-
-k = names.groupby(['name', 'sex']).apply(lambda g: len(g.groupby('sex')))
-k.head()
+# Calculating ambigendered names
 
 # <codecell>
 
-k = k.unstack()
-k = k.fillna(0)
-k.head()
+# calculate set of male_only, female_only, ambigender names
 
-# <codecell>
-
-male_names = set(k[k.M==1].index)
-female_names = set(k[k.F==1].index)
-ambi_names = male_names & female_names
-# alternative calc
-# ambigender_names = set(k[k.T.sum()==2].index)
-male_only_names = male_names - female_names
-female_only_names = female_names - male_names
-
-len(male_only_names), len(female_only_names), len(ambi_names), \
-  len(male_only_names) + len(female_only_names) + len(ambi_names)
-    
-ambi_names_array = np.array(list(ambi_names))
-
-# <codecell>
-
-len(male_only_names), len(female_only_names), len(ambi_names), \
-  len(male_only_names) + len(female_only_names) + len(ambi_names)
-    
-
-# <codecell>
-
-# this might be a better way to get at the set of male_only, female_only, ambigender names
-
-def another_calc_of_sex_of_names():
+def calc_of_sex_of_names():
 
     k = names.groupby('sex').apply(lambda s: set(list(s['name'])))
     male_only_names = k['M'] - k['F']
     female_only_names = k['F'] - k['M']
     ambi_names = k['F'] & k['M'] # intersection of two 
-    print len(male_only_names), len(female_only_names), len(ambi_names)
+    return {'male_only_names': male_only_names, 
+            'female_only_names': female_only_names,
+            'ambi_names': ambi_names }
     
-another_calc_of_sex_of_names()    
+names_by_sex = calc_of_sex_of_names() 
+ambi_names_array = np.array(list(names_by_sex['ambi_names']))
+
+[(k, len(v)) for (k,v) in names_by_sex.items()]
 
 # <codecell>
 
@@ -415,63 +329,82 @@ names.births.sum()
 
 # <codecell>
 
-k1 = names[np.in1d(names.name,ambi_names_array)][['name', 'sex', 'births','year']][::].pivot_table('births', rows='year', cols=['name','sex'], aggfunc=np.sum)
+# pivot table of ambigendered names to aggregate 
+
+names_ambi = names[np.in1d(names.name,ambi_names_array)]
+ambi_names_pt = names_ambi.pivot_table('births',
+                            rows='year', 
+                            cols=['name','sex'], 
+                            aggfunc='sum')
 
 # <codecell>
 
 # total number of people in k1 -- almost everyone!
-k1.sum().sum()
+
+ambi_names_pt.sum().sum()
 
 # <codecell>
 
-k1=k1.fillna(0L)
-k1.tail()
+# fill n/a with 0 and look at the table at the end
+
+ambi_names_pt=ambi_names_pt.fillna(0L)
+ambi_names_pt.tail()
 
 # <codecell>
 
 # plot M, F in ambigender_names over time
-k1.T.xs('M',level='sex').sum().cumsum()
+ambi_names_pt.T.xs('M',level='sex').sum().cumsum()
 
 # <codecell>
 
-k1.T.xs('F',level='sex').sum().cumsum()
-
-# <codecell>
-
-(k1.T.xs('M',level='sex').sum().cumsum() / k1.T.xs('F',level='sex').sum().cumsum()).plot()
+ambi_names_pt.T.xs('F',level='sex').sum().cumsum()
 
 # <codecell>
 
 # don't know what pivot table has type float
 # https://github.com/pydata/pandas/issues/3283
-k1['Raymond', 'M'].dtype
+ambi_names_pt['Raymond', 'M'].dtype
 
 # <codecell>
 
-(k1['Leslie']['M']/(k1['Leslie']['M'] + k1['Leslie']['F'])).plot()
+# calculate proportion of males for given name
+
+def prop_male(name):
+    return (ambi_names_pt[name]['M']/ \
+    ((ambi_names_pt[name]['M'] + ambi_names_pt[name]['F'])))
+
+def prop_c_male(name):
+    return (ambi_names_pt[name]['M'].cumsum()/ \
+    ((ambi_names_pt[name]['M'].cumsum() + ambi_names_pt[name]['F'].cumsum())))
 
 # <codecell>
 
-k1.T.ix[:].apply(lambda s: type(s),axis=1)
+prop_c_male('Leslie').plot()
 
 # <codecell>
+
+# I couldn't figure out a way of iterating over the names rather than names/sex combo in
+# a vectorized way.  
 
 from itertools import islice
 
-names_to_calc = list(islice(list(k1.T.index.levels[0]),None))
+names_to_calc = list(islice(list(ambi_names_pt.T.index.levels[0]),None))
 
-m = [(name_, k1[name_]['M']/(k1[name_]['F'] + k1[name_]['M']))  \
+m = [(name_, ambi_names_pt[name_]['M']/(ambi_names_pt[name_]['F'] + ambi_names_pt[name_]['M']))  \
      for name_ in names_to_calc]
 p_m_instant = DataFrame(dict(m))
 p_m_instant.tail()
 
 # <codecell>
 
+# similar calculation except instead of looking at the proportions for a given year only,
+# we look at the cumulative number of male/female babies for given name
+
 from itertools import islice
 
-names_to_calc = list(islice(list(k1.T.index.levels[0]),None))
+names_to_calc = list(islice(list(ambi_names_pt.T.index.levels[0]),None))
 
-m = [(name_, k1[name_]['M'].cumsum()/(k1[name_]['F'].cumsum() + k1[name_]['M'].cumsum()))  \
+m = [(name_, ambi_names_pt[name_]['M'].cumsum()/(ambi_names_pt[name_]['F'].cumsum() + ambi_names_pt[name_]['M'].cumsum()))  \
      for name_ in names_to_calc]
 p_m_cum = DataFrame(dict(m))
 p_m_cum.tail()
@@ -482,45 +415,23 @@ p_m_cum['Donnie'].plot()
 
 # <codecell>
 
-# first pass
+# some metrics that attempt to measure how a time series s has changed
 
-p_m_diff = p_m_cum.apply(lambda s:s[2010]-s[1880])
-
-# <codecell>
-
-p_m_diff.sort()
-p_m_diff.dropna()
-
-# <codecell>
-
-def start_end_years(s):
-    active_years = s.index[s > 0]
-    max_years = s.index[s == s.irow(-1)]
-    return Series({'start': active_years[0] if len(active_years) else None,
-                   'end': max_years[0] })
-
-def max_slope0(s):
-    
+def min_max_range(s):
+    """range of s signed -- positive if slope between two points p +ve and negative
+    otherwise; 0 if slope is 0"""
+    # note np.argmax, np.argmin returns the position of first occurence of global max, min
     sign = np.sign(np.argmax(s) - np.argmin(s))
     if sign == 0:
         return 0.0
     else:
-        return 100*sign*(np.max(s) - np.min(s))
+        return sign*(np.max(s) - np.min(s))
 
-def max_slope(s):
-    """grab earliest and latest value"""
+def last_first_diff(s):
+    """difference between latest and earliest value"""
     s0 = s.dropna()
-    return 100*(s0.iloc[-1] - s0.iloc[0])
+    return (s0.iloc[-1] - s0.iloc[0])
     
-slope = p_m_cum.apply(max_slope)
-
-# <codecell>
-
-slope.sort()
-slope.tail()
-
-# <codecell>
-
 
 # <codecell>
 
@@ -534,46 +445,54 @@ total_pop_ambiname.plot(logy=True)
 
 # <codecell>
 
-# population distribution of ambigender names
-plt.hist(all_births.sum()[np.in1d(all_births.sum().index, ambi_names_array)], bins=50, log=True)
+# now calculate a DataFrame to visualize results
+
+# calculate the total population, the change in p_m from last to first appearance, 
+# the change from max to min in p_m, and the percentage of males overall for name
+
+df = DataFrame()
+df['total_pop'] = total_pop_ambiname
+df['last_first_diff'] = p_m_cum.apply(last_first_diff)
+df['min_max_range'] = p_m_cum.apply(min_max_range)
+df['abs_min_max_range'] = np.abs(df.min_max_range)
+df['p_m'] = p_m_cum.iloc[-1]
+
+# distance from full ambigender -- p_m=0.5 leads to 1, p_m=1 or 0 -> 0
+df['ambi_index'] = df.p_m.apply(lambda p: 1 - 2* np.abs(p-0.5))
+
+df.head()
 
 # <codecell>
 
-# something wrong with this plot
+# plot: x -> log10 of total population, y->how p_m has changed from first to last
+# turn off d3 for this plot
 
-plt.scatter(total_pop_ambiname, slope, c="red", s=1)
-
-# <codecell>
-
-k2 = DataFrame()
-k2['total_pop'] = total_pop_ambiname
-k2['slope'] = slope
-k2.head()
+mpld3.disable_notebook()
+plt.scatter(np.log10(df.total_pop), df.last_first_diff, s=1)
 
 # <codecell>
 
+# turn d3 back on
 
-plt.scatter(np.log10(k2.total_pop), k2.slope, s=1)
-
-# <codecell>
-
-# general directionality counts
-
-k2.groupby(np.sign(k2.slope)).count()
+mpld3.enable_notebook()
 
 # <codecell>
 
-popular_names_with_shifts = k2[(k2.total_pop>10000) & (abs(k2.slope)>80)]
-popular_names_with_shifts.sort_index(by="slope", ascending=False)
+# general directionality counts -- looking for over asymmetry
 
-
-# <codecell>
-
-popular_names_with_shifts.groupby(np.sign(k2.slope)).count()
+df.groupby(np.sign(df.last_first_diff)).count()
 
 # <codecell>
 
-plt.scatter(np.log10(popular_names_with_shifts.total_pop), popular_names_with_shifts.slope)
+# let's concentrate on more populous names that have seen big swings in the cumulative p_m
+
+# you can play with the population and range filter
+popular_names_with_shifts = df[(df.total_pop>5000) & (df.abs_min_max_range >0.7)]
+popular_names_with_shifts.sort_index(by="abs_min_max_range", ascending=False)
+
+# <codecell>
+
+popular_names_with_shifts.groupby(np.sign(df.last_first_diff)).count()
 
 # <codecell>
 
@@ -582,14 +501,15 @@ plt.scatter(np.log10(popular_names_with_shifts.total_pop), popular_names_with_sh
 # <codecell>
 
 fig, ax = plt.subplots(subplot_kw=dict(axisbg='#EEEEEE'))
-x, y = np.log10(popular_names_with_shifts.total_pop), popular_names_with_shifts.slope
-
+x = np.log10(popular_names_with_shifts.total_pop)
+y = popular_names_with_shifts.min_max_range 
 
 scatter = ax.scatter(x, y)
 
 ax.grid(color='white', linestyle='solid')
-
-ax.set_title("Scatter Plot (with tooltips!)", size=20)
+ax.set_title("Populous Names with Major Sex Shift", size=20)
+ax.set_xlabel('log10(total_pop)')
+ax.set_ylabel('min_max_range')
 
 #labels = ['point {0}'.format(i + 1) for i in range(len(x))]
 labels = list(popular_names_with_shifts.index)
@@ -598,4 +518,5 @@ plugins.connect(fig, tooltip)
 
 # <codecell>
 
+prop_c_male('Ronnie').plot()
 
