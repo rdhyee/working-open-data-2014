@@ -518,5 +518,8 @@ plugins.connect(fig, tooltip)
 
 # <codecell>
 
-prop_c_male('Ronnie').plot()
+prop_c_male('Leslie').plot()
+
+# <codecell>
+
 
