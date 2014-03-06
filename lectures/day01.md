@@ -125,7 +125,7 @@ Raymond Yee:
 
 # Course Outline
 
-**Last revised: 2014.02.20**
+**Last revised: 2014.03.06**
 
   1. [Introduction to Working with Open Data](http://is.gd/wwod1401)
   2. [Setting Up for Python & IPython](http://is.gd/wwod1402)
@@ -139,8 +139,8 @@ Raymond Yee:
   10. [Calculating Diversity III](http://is.gd/wwod1410)
   11. [Looking Ahead to Projects, Plotting, and Baby Names](http://is.gd/wwod1411)
   12. [Baby Names and Plotting](http://is.gd/wwod1412)
-  13. 
-  14. 
+  13. [Baby Names II and mpld3](http://is.gd/wwod1413)
+  14. [Baby Names III](http://is.gd/wwod1414)
   15. 
   16. 
   17. MIDTERM (Day 17, 2014-03-18)
@@ -163,11 +163,12 @@ Raymond Yee:
    * flow of topics
 
 # Major Deadlines
-
- * Project Progress Report: March 15, 2014 11:59pm
+ 
+ * [Preliminary Project Proposal](https://bcourses.berkeley.edu/courses/1189091/assignments/4811387) (Friday March 21, 2014)
  * Mid-term exam: Tuesday, March 18, 2014 (Day 17)
+ * [Project Proposal](https://bcourses.berkeley.edu/courses/1189091/assignments/4743884): <s>March 15, 2014 11:59pm</s> Wed, April 2, 2014
  * In-class presentations: April 24, April 29, and May 1, 2014  (Days 26, 27, & Day 28)
-* Submission of Final Report and Open House/ Poster Session: Tuesday, May 6, 2014 (Day 29)
+ * Submission of Final Report and Open House/ Poster Session: Tuesday, May 6, 2014 (Day 29)
 
 **It is the student’s responsibility to notify the instructor(s) in
   writing by the second week of the semester of any potential

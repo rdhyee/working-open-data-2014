@@ -56,8 +56,8 @@ to get matplotlib plots to show up inline in the IPython notebook .  See [nbview
 Assignment in [nbviewer.ipython.org/github/rdhyee/working-open-data-2014/blob/master/notebooks/Day_13_B_Baby_Names_MF_Starter.ipynb](http://nbviewer.ipython.org/github/rdhyee/working-open-data-2014/blob/master/notebooks/Day_13_B_Baby_Names_MF_Starter.ipynb):
 
 > Submit a notebook that describes what you've learned about the nature of
-ambigendered names in the baby names database. (Due date: Monday, March 10 at
-11:5pm --> bCourses assignment to come.) I'm interested in seeing what you do
+ambigendered names in the baby names database. (Due date: <s>Monday, March 10</s> Wed, March 12 at
+11:5pm --> bCourses assignment) I'm interested in seeing what you do
 with the data set in this regard. At the minimum, show that you are able to run
 Day_13_C_Baby_Names_MF_Completed. Be creative and have fun.
 
