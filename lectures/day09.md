@@ -27,7 +27,7 @@ the course.
 
 # Project Proposals
 
-[Due: Friday, March 14, 2014 11:59pm](https://bcourses.berkeley.edu/courses/1189091/assignments/4743884).
+[Due: Wed, April 2, 2014 11:59pm](https://bcourses.berkeley.edu/courses/1189091/assignments/4743884).
 
 Write a 1-2 page proposal on how your group (of 2-3 team members) will conduct a thorough analyses of some open dataset or datasets. Use the following template for your proposal:
 

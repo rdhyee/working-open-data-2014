@@ -80,3 +80,11 @@ pt.T.reindex(new_index).T
 
 pt.T.reindex(new_index).T.fillna(0)
 
+# <codecell>
+
+df.groupby('year').apply(lambda s: s.groupby(['name','sex']).agg('sum'))
+
+# <codecell>
+
+df.groupby('year').apply(lambda s: s.groupby(['name','sex']).agg('sum')).unstack()
+

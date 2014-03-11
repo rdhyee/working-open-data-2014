@@ -10,7 +10,7 @@
 
 # Preview of Plotting Graphs and Maps
 
-Do the following notebooks work for you to show basic graphics?
+Do the following notebooks work for you to show basic graphics.
 
 *
   [Day_07_A_D3_Choropleth.ipynb](http://nbviewer.ipython.org/github/rdhyee/working-open-data-2014/blob/master/notebooks/Day_07_A_D3_Choropleth.ipynb)
@@ -18,9 +18,9 @@ Do the following notebooks work for you to show basic graphics?
 *
   [Day_07_B_Google_Chart_Example.ipynb](http://nbviewer.ipython.org/github/rdhyee/working-open-data-2014/blob/master/notebooks/Day_07_B_Google_Chart_Example.ipynb)
 
-*[Day_07_C_Google_Map_API.ipynb](http://nbviewer.ipython.org/github/rdhyee/working-open-data-2014/blob/master/notebooks/Day_07_C_Google_Map_API.ipynb)
+* [Day_07_C_Google_Map_API.ipynb](http://nbviewer.ipython.org/github/rdhyee/working-open-data-2014/blob/master/notebooks/Day_07_C_Google_Map_API.ipynb)
 
-*[Day_07_D_Matplotlib.ipynb](http://nbviewer.ipython.org/github/rdhyee/working-open-data-2014/blob/master/notebooks/Day_07_D_Matplotlib.ipynb)
+* [Day_07_D_Matplotlib.ipynb](http://nbviewer.ipython.org/github/rdhyee/working-open-data-2014/blob/master/notebooks/Day_07_D_Matplotlib.ipynb)
   
 If not, please post on bCourses about problems you see.
 
