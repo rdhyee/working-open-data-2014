@@ -277,7 +277,7 @@ assert len(places_df) == 29261
 
 # # Groupby
 # 
-# [Day_07_F_Groupby.ipynb](http://nbviewer.ipython.org/github/rdhyee/working-open-data-2014/blob/master/notebooks/Day_07_F_Groupby.ipynb):  gives you backgruond on how to understand and use `groupby` in Pandas.  Don't miss AJ's [Day_10_Groupby_Examples.ipynb](http://nbviewer.ipython.org/github/rdhyee/working-open-data-2014/blob/master/notebooks/Day_10_Groupby_Examples.ipynb), which should be helpful, especially if you found [Day_10_Groupby_Examples.ipynb](http://nbviewer.ipython.org/github/rdhyee/working-open-data-2014/blob/master/notebooks/Day_10_Groupby_Examples.ipynb) obscure.
+# [Day_07_F_Groupby.ipynb](http://nbviewer.ipython.org/github/rdhyee/working-open-data-2014/blob/master/notebooks/Day_07_F_Groupby.ipynb):  gives you background on how to understand and use `groupby` in Pandas.  Don't miss AJ's [Day_10_Groupby_Examples.ipynb](http://nbviewer.ipython.org/github/rdhyee/working-open-data-2014/blob/master/notebooks/Day_10_Groupby_Examples.ipynb), which should be helpful, especially if you found [Day_10_Groupby_Examples.ipynb](http://nbviewer.ipython.org/github/rdhyee/working-open-data-2014/blob/master/notebooks/Day_10_Groupby_Examples.ipynb) obscure.
 
 # <markdowncell>
 
