@@ -5,11 +5,13 @@
 
 # http://stackoverflow.com/questions/22185527/how-can-i-successfully-load-dimple-js-when-require-js-is-present
 
+# Answer: https://github.com/PMSI-AlignAlytics/dimple/pull/56#issuecomment-37480189
+
 # <codecell>
 
 %%html
 <style type="text/css">
-
+ /* https://github.com/PMSI-AlignAlytics/dimple/pull/56#issuecomment-37480189 */
  .tooltip {
   opacity: 1 !Important;
 }   
@@ -194,4 +196,7 @@ require(["d3", "queue", "topojson", "dimple"], function(d3, queue, topojson, dim
 
 });
 </script>
+
+# <codecell>
+
 
