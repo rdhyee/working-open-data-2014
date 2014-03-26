@@ -125,7 +125,7 @@ Raymond Yee:
 
 # Course Outline
 
-**Last revised: 2014.03.06**
+**Last revised: 2014.03.20**
 
   1. [Introduction to Working with Open Data](http://is.gd/wwod1401)
   2. [Setting Up for Python & IPython](http://is.gd/wwod1402)
@@ -141,10 +141,10 @@ Raymond Yee:
   12. [Baby Names and Plotting](http://is.gd/wwod1412)
   13. [Baby Names II and mpld3](http://is.gd/wwod1413)
   14. [Baby Names III](http://is.gd/wwod1414)
-  15. 
-  16. 
+  15. [Preparing for the Midterm I](http://is.gd/wwod1415)
+  16. [Preparing for Midterm II](http://is.gd/wwod1416)
   17. MIDTERM (Day 17, 2014-03-18)
-  18. 
+  18. [Looking ahead](http://is.gd/wwod1418)
   19. 
   20. 
   21. 
@@ -152,9 +152,9 @@ Raymond Yee:
   23. 
   24. 
   25. 
-  26. Class Presentations (I)
-  27. Class Presentations (II)
-  28. Class Presentations (III)
+  26. 
+  27. Class Presentations (I)
+  28. Class Presentations (II)
   29. Open House
 
 ## To be scheduled:
