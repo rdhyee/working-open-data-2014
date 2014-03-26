@@ -36,3 +36,10 @@ df.pivot_table(rows='gender',cols='major', aggfunc='count')['gender']
 
 df.pivot_table(rows='gender',cols='major', aggfunc='count')['gender'].fillna(0)
 
+# <codecell>
+
+# maybe a clearer solution if you use 'values' -- 
+# which can be either 'major' or 'gender' in this case
+
+df.pivot_table(values='major', rows='gender',cols='major', aggfunc='count').fillna(0)
+
