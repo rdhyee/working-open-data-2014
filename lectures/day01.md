@@ -167,7 +167,7 @@ Raymond Yee:
  * [Preliminary Project Proposal](https://bcourses.berkeley.edu/courses/1189091/assignments/4811387) (Friday March 21, 2014)
  * Mid-term exam: Tuesday, March 18, 2014 (Day 17)
  * [Project Proposal](https://bcourses.berkeley.edu/courses/1189091/assignments/4743884): <s>March 15, 2014 11:59pm</s> Wed, April 2, 2014
- * In-class presentations: April 24, April 29, and May 1, 2014  (Days 26, 27, & Day 28)
+ * In-class presentations: April 29, and May 1, 2014  (Days 27 and Day 28)
  * Submission of Final Report and Open House/ Poster Session: Tuesday, May 6, 2014 (Day 29)
 
 **It is the student’s responsibility to notify the instructor(s) in
