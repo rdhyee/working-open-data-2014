@@ -3,7 +3,9 @@
 
 # <markdowncell>
 
-# A promising route for using leaflet.js maps in the IPython notebook -- use [Folium: Python Data. Leaflet.js Maps. — Folium 0.1.2 documentation](https://folium.readthedocs.org/en/latest/).
+# A promising route for using leaflet.js maps in the IPython notebook -- use [Folium: Python Data. Leaflet.js Maps. — Folium 0.1.2 documentation](https://folium.readthedocs.org/en/latest/).  Easiest way to install Folium:
+# 
+#     pip install folium
 # 
 # This notebook is a tiny modification of http://nbviewer.ipython.org/gist/bburky/7763555/folium-ipython.ipynb.  (See https://gist.github.com/bburky/7763555) Specifically, I host the us_counties_20m_topo.json file on my server.  I confirm that this notebook works in IPython 2.0 
 
@@ -76,6 +78,29 @@ map.geo_json(geo_path=county_geo, data_out='data2.json', data=df,
                topojson='objects.us_counties_20m')
 
 embed_map(map)
+
+# <headingcell level=1>
+
+# Blending folium with interact
+
+# <codecell>
+
+from IPython.html import widgets
+from IPython.display import display, Image, HTML, clear_output
+
+# <codecell>
+
+# not the most interesting demo --> but a proof of concept on how we can control map using interact
+
+def plot_map(lat, long, zoom):
+    map = folium.Map(location=[lat, long], zoom_start=zoom)
+    map.simple_marker([lat, long], popup='lat:{lat} long:{long}'.format(lat=lat,long=long))
+    display(inline_map(map))
+    
+widgets.interact(plot_map, 
+                 lat=widgets.FloatSliderWidget(min=-90,max=90,step=0.1,value=0),
+                 long=widgets.FloatSliderWidget(min=-180,max=180,step=0.1,value=0),
+                 zoom=widgets.IntSliderWidget(min=0,max=20,step=1,value=2))
 
 # <codecell>
 
