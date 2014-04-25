@@ -1,0 +1,217 @@
+{"Origin": "Origin", "Origin_airport": "Origin_airport", "Origin_city": "Origin_city", "TotalFlights": "TotalFlights", "Origin_long": "Origin_long", "Origin_lat": "Origin_lat"}
+{"Origin": "ABE", "Origin_airport": "Lehigh Valley International", "Origin_city": "Allentown", "TotalFlights": "278", "Origin_long": "-75.44040167", "Origin_lat": "40.65236278"}
+{"Origin": "ABQ", "Origin_airport": "Albuquerque International", "Origin_city": "Albuquerque", "TotalFlights": "2863", "Origin_long": "-106.6091944", "Origin_lat": "35.04022222"}
+{"Origin": "ACV", "Origin_airport": "Arcata", "Origin_city": "Arcata/Eureka", "TotalFlights": "301", "Origin_long": "-124.1086189", "Origin_lat": "40.97811528"}
+{"Origin": "ACY", "Origin_airport": "Atlantic City International", "Origin_city": "Atlantic City", "TotalFlights": "1", "Origin_long": "-74.57716667", "Origin_lat": "39.45758333"}
+{"Origin": "AEX", "Origin_airport": "Alexandria International", "Origin_city": "Alexandria", "TotalFlights": "27", "Origin_long": "-92.54855611", "Origin_lat": "31.32737167"}
+{"Origin": "ALB", "Origin_airport": "Albany Cty", "Origin_city": "Albany", "TotalFlights": "892", "Origin_long": "-73.80297861", "Origin_lat": "42.74811944"}
+{"Origin": "AMA", "Origin_airport": "Amarillo International", "Origin_city": "Amarillo", "TotalFlights": "397", "Origin_long": "-101.7059272", "Origin_lat": "35.2193725"}
+{"Origin": "ANC", "Origin_airport": "Ted Stevens Anchorage International", "Origin_city": "Anchorage", "TotalFlights": "47", "Origin_long": "-149.9961856", "Origin_lat": "61.17432028"}
+{"Origin": "ASE", "Origin_airport": "Aspen-Pitkin Co/Sardy ", "Origin_city": "Aspen", "TotalFlights": "736", "Origin_long": "-106.868845", "Origin_lat": "39.22316"}
+{"Origin": "ATL", "Origin_airport": "William B Hartsfield-Atlanta Intl", "Origin_city": "Atlanta", "TotalFlights": "1837", "Origin_long": "-84.42694444", "Origin_lat": "33.64044444"}
+{"Origin": "ATW", "Origin_airport": "Outagamie County Regional", "Origin_city": "Appleton", "TotalFlights": "275", "Origin_long": "-88.51947556", "Origin_lat": "44.25740806"}
+{"Origin": "AUS", "Origin_airport": "Austin-Bergstrom International", "Origin_city": "Austin", "TotalFlights": "2342", "Origin_long": "-97.66987194", "Origin_lat": "30.19453278"}
+{"Origin": "AVL", "Origin_airport": "Asheville Regional", "Origin_city": "Asheville", "TotalFlights": "68", "Origin_long": "-82.54180556", "Origin_lat": "35.43619444"}
+{"Origin": "AVP", "Origin_airport": "Wilkes-Barre/Scranton Intl", "Origin_city": "Wilkes-Barre/Scranton", "TotalFlights": "77", "Origin_long": "-75.7242675", "Origin_lat": "41.33814944"}
+{"Origin": "AZO", "Origin_airport": "Kalamazoo County", "Origin_city": "Kalamazoo", "TotalFlights": "86", "Origin_long": "-85.5520575", "Origin_lat": "42.234875"}
+{"Origin": "BDL", "Origin_airport": "Bradley International", "Origin_city": "Windsor Locks", "TotalFlights": "1519", "Origin_long": "-72.68322833", "Origin_lat": "41.93887417"}
+{"Origin": "BFL", "Origin_airport": "Meadows ", "Origin_city": "Bakersfield", "TotalFlights": "403", "Origin_long": "-119.0567681", "Origin_lat": "35.43359806"}
+{"Origin": "BGR", "Origin_airport": "Bangor International", "Origin_city": "Bangor", "TotalFlights": "118", "Origin_long": "-68.82813889", "Origin_lat": "44.80744444"}
+{"Origin": "BHM", "Origin_airport": "Birmingham International", "Origin_city": "Birmingham", "TotalFlights": "1425", "Origin_long": "-86.75354972", "Origin_lat": "33.56294306"}
+{"Origin": "BIL", "Origin_airport": "Billings Logan Intl", "Origin_city": "Billings", "TotalFlights": "291", "Origin_long": "-108.5428611", "Origin_lat": "45.8076625"}
+{"Origin": "BIS", "Origin_airport": "Bismarck Municipal", "Origin_city": "Bismarck", "TotalFlights": "95", "Origin_long": "-100.7467222", "Origin_lat": "46.77411111"}
+{"Origin": "BLI", "Origin_airport": "Bellingham Intl", "Origin_city": "Bellingham", "TotalFlights": "30", "Origin_long": "-122.5375278", "Origin_lat": "48.79275"}
+{"Origin": "BMI", "Origin_airport": "Central Illinois Regional", "Origin_city": "Bloomington", "TotalFlights": "118", "Origin_long": "-88.91595278", "Origin_lat": "40.47798556"}
+{"Origin": "BNA", "Origin_airport": "Nashville International", "Origin_city": "Nashville", "TotalFlights": "3431", "Origin_long": "-86.67818222", "Origin_lat": "36.12447667"}
+{"Origin": "BOI", "Origin_airport": "Boise Air Terminal", "Origin_city": "Boise", "TotalFlights": "1354", "Origin_long": "-116.2227778", "Origin_lat": "43.56444444"}
+{"Origin": "BOS", "Origin_airport": "Gen Edw L Logan Intl", "Origin_city": "Boston", "TotalFlights": "3390", "Origin_long": "-71.00517917", "Origin_lat": "42.3643475"}
+{"Origin": "BPT", "Origin_airport": "Southeast Texas Regional", "Origin_city": "Beaumont/Port Arthur", "TotalFlights": "39", "Origin_long": "-94.02069444", "Origin_lat": "29.95083333"}
+{"Origin": "BRO", "Origin_airport": "Brownsville/S.Padre Island International", "Origin_city": "Brownsville", "TotalFlights": "106", "Origin_long": "-97.42586111", "Origin_lat": "25.90683333"}
+{"Origin": "BTM", "Origin_airport": "Bert Mooney", "Origin_city": "Butte", "TotalFlights": "62", "Origin_long": "-112.49746", "Origin_lat": "45.95479528"}
+{"Origin": "BTR", "Origin_airport": "Baton Rouge Metropolitan, Ryan ", "Origin_city": "Baton Rouge", "TotalFlights": "183", "Origin_long": "-91.14963444", "Origin_lat": "30.53316083"}
+{"Origin": "BTV", "Origin_airport": "Burlington International", "Origin_city": "Burlington", "TotalFlights": "330", "Origin_long": "-73.1503125", "Origin_lat": "44.47300361"}
+{"Origin": "BUF", "Origin_airport": "Buffalo Niagara Intl", "Origin_city": "Buffalo", "TotalFlights": "1068", "Origin_long": "-78.73216667", "Origin_lat": "42.94052472"}
+{"Origin": "BUR", "Origin_airport": "Burbank-Glendale-Pasadena", "Origin_city": "Burbank", "TotalFlights": "2330", "Origin_long": "-118.3584969", "Origin_lat": "34.20061917"}
+{"Origin": "BWI", "Origin_airport": "Baltimore-Washington International", "Origin_city": "Baltimore", "TotalFlights": "6320", "Origin_long": "-76.66819833", "Origin_lat": "39.17540167"}
+{"Origin": "BZN", "Origin_airport": "Gallatin ", "Origin_city": "Bozeman", "TotalFlights": "375", "Origin_long": "-111.1530072", "Origin_lat": "45.77690139"}
+{"Origin": "CAE", "Origin_airport": "Columbia Metropolitan", "Origin_city": "Columbia", "TotalFlights": "354", "Origin_long": "-81.11953944", "Origin_lat": "33.93884"}
+{"Origin": "CAK", "Origin_airport": "Akron-Canton Regional", "Origin_city": "Akron", "TotalFlights": "94", "Origin_long": "-81.44246556", "Origin_lat": "40.91631194"}
+{"Origin": "CDC", "Origin_airport": "Cedar City Muni", "Origin_city": "Cedar City", "TotalFlights": "48", "Origin_long": "-113.098575", "Origin_lat": "37.70097028"}
+{"Origin": "CEC", "Origin_airport": "Jack McNamara ", "Origin_city": "Crescent City", "TotalFlights": "88", "Origin_long": "-124.2365333", "Origin_lat": "41.78015722"}
+{"Origin": "CHA", "Origin_airport": "Lovell ", "Origin_city": "Chattanooga", "TotalFlights": "84", "Origin_long": "-85.20378778", "Origin_lat": "35.03526833"}
+{"Origin": "CHS", "Origin_airport": "Charleston AFB/International", "Origin_city": "Charleston", "TotalFlights": "580", "Origin_long": "-80.04050583", "Origin_lat": "32.89864639"}
+{"Origin": "CIC", "Origin_airport": "Chico Municipal", "Origin_city": "Chico", "TotalFlights": "114", "Origin_long": "-121.8584231", "Origin_lat": "39.79538278"}
+{"Origin": "CID", "Origin_airport": "Eastern Iowa ", "Origin_city": "Cedar Rapids", "TotalFlights": "271", "Origin_long": "-91.71087222", "Origin_lat": "41.88458833"}
+{"Origin": "CLE", "Origin_airport": "Cleveland-Hopkins Intl", "Origin_city": "Cleveland", "TotalFlights": "3166", "Origin_long": "-81.84939667", "Origin_lat": "41.41089417"}
+{"Origin": "CLL", "Origin_airport": "Easterwood ", "Origin_city": "College Station", "TotalFlights": "31", "Origin_long": "-96.36382417", "Origin_lat": "30.58858944"}
+{"Origin": "CLT", "Origin_airport": "Charlotte/Douglas International", "Origin_city": "Charlotte", "TotalFlights": "9165", "Origin_long": "-80.94312583", "Origin_lat": "35.21401111"}
+{"Origin": "CMH", "Origin_airport": "Port Columbus Intl", "Origin_city": "Columbus", "TotalFlights": "1747", "Origin_long": "-82.89188278", "Origin_lat": "39.99798528"}
+{"Origin": "COD", "Origin_airport": "Yellowstone Regional", "Origin_city": "Cody", "TotalFlights": "93", "Origin_long": "-109.0237961", "Origin_lat": "44.52019417"}
+{"Origin": "COS", "Origin_airport": "City of Colorado Springs Muni", "Origin_city": "Colorado Springs", "TotalFlights": "1226", "Origin_long": "-104.70025", "Origin_lat": "38.80580556"}
+{"Origin": "CPR", "Origin_airport": "Natrona County Intl", "Origin_city": "Casper", "TotalFlights": "270", "Origin_long": "-106.4644661", "Origin_lat": "42.90835556"}
+{"Origin": "CRP", "Origin_airport": "Corpus Christi International", "Origin_city": "Corpus Christi", "TotalFlights": "163", "Origin_long": "-97.50121528", "Origin_lat": "27.77036083"}
+{"Origin": "CRW", "Origin_airport": "Yeager", "Origin_city": "Charleston", "TotalFlights": "146", "Origin_long": "-81.59318972", "Origin_lat": "38.37315083"}
+{"Origin": "CVG", "Origin_airport": "Cincinnati Northern Kentucky Intl", "Origin_city": "Covington", "TotalFlights": "5740", "Origin_long": "-84.6621725", "Origin_lat": "39.04614278"}
+{"Origin": "CWA", "Origin_airport": "Central Wisconsin", "Origin_city": "Mosinee", "TotalFlights": "93", "Origin_long": "-89.66677944", "Origin_lat": "44.77761917"}
+{"Origin": "DAB", "Origin_airport": "Daytona Beach International", "Origin_city": "Daytona Beach", "TotalFlights": "8", "Origin_long": "-81.05805556", "Origin_lat": "29.17991667"}
+{"Origin": "DAL", "Origin_airport": "Dallas Love ", "Origin_city": "Dallas", "TotalFlights": "4120", "Origin_long": "-96.85177222", "Origin_lat": "32.84711389"}
+{"Origin": "DAY", "Origin_airport": "James M Cox Dayton Intl", "Origin_city": "Dayton", "TotalFlights": "427", "Origin_long": "-84.219375", "Origin_lat": "39.90237583"}
+{"Origin": "DCA", "Origin_airport": "Ronald Reagan Washington National", "Origin_city": "Arlington", "TotalFlights": "3178", "Origin_long": "-77.03772222", "Origin_lat": "38.85208333"}
+{"Origin": "DEN", "Origin_airport": "Denver Intl", "Origin_city": "Denver", "TotalFlights": "13586", "Origin_long": "-104.6670019", "Origin_lat": "39.85840806"}
+{"Origin": "DFW", "Origin_airport": "Dallas-Fort Worth International", "Origin_city": "Dallas-Fort Worth", "TotalFlights": "1304", "Origin_long": "-97.0372", "Origin_lat": "32.89595056"}
+{"Origin": "DRO", "Origin_airport": "Durango-La Plata County", "Origin_city": "Durango", "TotalFlights": "318", "Origin_long": "-107.7537692", "Origin_lat": "37.15151667"}
+{"Origin": "DSM", "Origin_airport": "Des Moines International", "Origin_city": "Des Moines", "TotalFlights": "540", "Origin_long": "-93.66068222", "Origin_lat": "41.53493306"}
+{"Origin": "DTW", "Origin_airport": "Detroit Metropolitan-Wayne County", "Origin_city": "Detroit", "TotalFlights": "1658", "Origin_long": "-83.34883583", "Origin_lat": "42.21205889"}
+{"Origin": "EGE", "Origin_airport": "Eagle County Regional", "Origin_city": "Eagle", "TotalFlights": "201", "Origin_long": "-106.9176953", "Origin_lat": "39.64256778"}
+{"Origin": "EKO", "Origin_airport": "Elko Regional", "Origin_city": "Elko", "TotalFlights": "149", "Origin_long": "-115.7916964", "Origin_lat": "40.82492611"}
+{"Origin": "ELP", "Origin_airport": "El Paso International", "Origin_city": "El Paso", "TotalFlights": "1387", "Origin_long": "-106.3778056", "Origin_lat": "31.80666667"}
+{"Origin": "EUG", "Origin_airport": "Mahlon Sweet ", "Origin_city": "Eugene", "TotalFlights": "552", "Origin_long": "-123.2186856", "Origin_lat": "44.12326"}
+{"Origin": "EWR", "Origin_airport": "Newark Intl", "Origin_city": "Newark", "TotalFlights": "5737", "Origin_long": "-74.16866056", "Origin_lat": "40.69249722"}
+{"Origin": "FAR", "Origin_airport": "Hector International", "Origin_city": "Fargo", "TotalFlights": "233", "Origin_long": "-96.81498889", "Origin_lat": "46.91934889"}
+{"Origin": "FAT", "Origin_airport": "Fresno Yosemite International", "Origin_city": "Fresno", "TotalFlights": "1046", "Origin_long": "-119.7181389", "Origin_lat": "36.77619444"}
+{"Origin": "FCA", "Origin_airport": "Glacier Park Intl", "Origin_city": "Kalispell", "TotalFlights": "210", "Origin_long": "-114.2550694", "Origin_lat": "48.31140472"}
+{"Origin": "FLG", "Origin_airport": "Flagstaff Pulliam", "Origin_city": "Flagstaff", "TotalFlights": "148", "Origin_long": "-111.6712183", "Origin_lat": "35.13845472"}
+{"Origin": "FLL", "Origin_airport": "Fort Lauderdale-Hollywood Int'l", "Origin_city": "Ft. Lauderdale", "TotalFlights": "2163", "Origin_long": "-80.15275", "Origin_lat": "26.07258333"}
+{"Origin": "FSD", "Origin_airport": "Joe Foss ", "Origin_city": "Sioux Falls", "TotalFlights": "308", "Origin_long": "-96.74170028", "Origin_lat": "43.58135111"}
+{"Origin": "FWA", "Origin_airport": "Fort Wayne International", "Origin_city": "Fort Wayne", "TotalFlights": "144", "Origin_long": "-85.19514639", "Origin_lat": "40.97846583"}
+{"Origin": "GEG", "Origin_airport": "Spokane Intl", "Origin_city": "Spokane", "TotalFlights": "1107", "Origin_long": "-117.5338425", "Origin_lat": "47.61985556"}
+{"Origin": "GJT", "Origin_airport": "Walker ", "Origin_city": "Grand Junction", "TotalFlights": "372", "Origin_long": "-108.5267347", "Origin_lat": "39.1224125"}
+{"Origin": "GPT", "Origin_airport": "Gulfport-Biloxi Regional", "Origin_city": "Gulfport-Biloxi", "TotalFlights": "157", "Origin_long": "-89.07009278", "Origin_lat": "30.40728028"}
+{"Origin": "GRB", "Origin_airport": "Austin Straubel International", "Origin_city": "Green Bay", "TotalFlights": "184", "Origin_long": "-88.12959", "Origin_lat": "44.48507333"}
+{"Origin": "GRK", "Origin_airport": "Robert Gray AAF", "Origin_city": "Killeen", "TotalFlights": "57", "Origin_long": "-97.82779778", "Origin_lat": "31.06489778"}
+{"Origin": "GRR", "Origin_airport": "Kent County International", "Origin_city": "Grand Rapids", "TotalFlights": "462", "Origin_long": "-85.52276778", "Origin_lat": "42.88081972"}
+{"Origin": "GSO", "Origin_airport": "Piedmont Triad International", "Origin_city": "Greensboro", "TotalFlights": "601", "Origin_long": "-79.9372975", "Origin_lat": "36.09774694"}
+{"Origin": "GSP", "Origin_airport": "Greenville-Spartanburg", "Origin_city": "Greer", "TotalFlights": "534", "Origin_long": "-82.21885833", "Origin_lat": "34.89566722"}
+{"Origin": "GTF", "Origin_airport": "Great Falls Intl", "Origin_city": "Great Falls", "TotalFlights": "155", "Origin_long": "-111.3706853", "Origin_lat": "47.48200194"}
+{"Origin": "GUC", "Origin_airport": "Gunnison County", "Origin_city": "Gunnison", "TotalFlights": "62", "Origin_long": "-106.9331817", "Origin_lat": "38.53396333"}
+{"Origin": "HDN", "Origin_airport": "Yampa Valley", "Origin_city": "Hayden", "TotalFlights": "258", "Origin_long": "-107.2176597", "Origin_lat": "40.48118028"}
+{"Origin": "HLN", "Origin_airport": "Helena Regional", "Origin_city": "Helena", "TotalFlights": "104", "Origin_long": "-111.9827503", "Origin_lat": "46.60681806"}
+{"Origin": "HNL", "Origin_airport": "Honolulu International", "Origin_city": "Honolulu", "TotalFlights": "1082", "Origin_long": "-157.9224072", "Origin_lat": "21.31869111"}
+{"Origin": "HOU", "Origin_airport": "William P Hobby", "Origin_city": "Houston", "TotalFlights": "4085", "Origin_long": "-95.27888889", "Origin_lat": "29.64541861"}
+{"Origin": "HPN", "Origin_airport": "Westchester Cty", "Origin_city": "White Plains", "TotalFlights": "99", "Origin_long": "-73.70757444", "Origin_lat": "41.06695778"}
+{"Origin": "HRL", "Origin_airport": "Valley International", "Origin_city": "Harlingen", "TotalFlights": "397", "Origin_long": "-97.65439389", "Origin_lat": "26.22850611"}
+{"Origin": "HSV", "Origin_airport": "Huntsville International ", "Origin_city": "Huntsville", "TotalFlights": "297", "Origin_long": "-86.77310944", "Origin_lat": "34.6404475"}
+{"Origin": "IAD", "Origin_airport": "Washington Dulles International", "Origin_city": "Chantilly", "TotalFlights": "5140", "Origin_long": "-77.45580972", "Origin_lat": "38.94453194"}
+{"Origin": "IAH", "Origin_airport": "George Bush Intercontinental", "Origin_city": "Houston", "TotalFlights": "7339", "Origin_long": "-95.33972222", "Origin_lat": "29.98047222"}
+{"Origin": "ICT", "Origin_airport": "Wichita Mid-Continent", "Origin_city": "Wichita", "TotalFlights": "527", "Origin_long": "-97.43304583", "Origin_lat": "37.64995889"}
+{"Origin": "IDA", "Origin_airport": "Idaho Falls Regional", "Origin_city": "Idaho Falls", "TotalFlights": "270", "Origin_long": "-112.0701667", "Origin_lat": "43.51455556"}
+{"Origin": "ILM", "Origin_airport": "Wilmington International", "Origin_city": "Wilmington", "TotalFlights": "79", "Origin_long": "-77.90255556", "Origin_lat": "34.27061111"}
+{"Origin": "IND", "Origin_airport": "Indianapolis International", "Origin_city": "Indianapolis", "TotalFlights": "1092", "Origin_long": "-86.29438417", "Origin_lat": "39.71732917"}
+{"Origin": "IPL", "Origin_airport": "Imperial County", "Origin_city": "Imperial", "TotalFlights": "117", "Origin_long": "-115.5787456", "Origin_lat": "32.83422028"}
+{"Origin": "ISP", "Origin_airport": "Long Island - MacArthur", "Origin_city": "Islip", "TotalFlights": "856", "Origin_long": "-73.10021194", "Origin_lat": "40.7952425"}
+{"Origin": "ITO", "Origin_airport": "Hilo International", "Origin_city": "Hilo", "TotalFlights": "174", "Origin_long": "-155.0484703", "Origin_lat": "19.72026306"}
+{"Origin": "IYK", "Origin_airport": "Inyokern", "Origin_city": "Inyokern", "TotalFlights": "82", "Origin_long": "-117.8295122", "Origin_lat": "35.65884306"}
+{"Origin": "JAC", "Origin_airport": "Jackson Hole", "Origin_city": "Jackson", "TotalFlights": "194", "Origin_long": "-110.7377389", "Origin_lat": "43.60732417"}
+{"Origin": "JAN", "Origin_airport": "Jackson International", "Origin_city": "Jackson", "TotalFlights": "462", "Origin_long": "-90.07588889", "Origin_lat": "32.31116667"}
+{"Origin": "JAX", "Origin_airport": "Jacksonville International", "Origin_city": "Jacksonville", "TotalFlights": "1759", "Origin_long": "-81.68786111", "Origin_lat": "30.49405556"}
+{"Origin": "JFK", "Origin_airport": "John F Kennedy Intl", "Origin_city": "New York", "TotalFlights": "2159", "Origin_long": "-73.77892556", "Origin_lat": "40.63975111"}
+{"Origin": "KOA", "Origin_airport": "Kona International At Keahole", "Origin_city": "Kailua/Kona", "TotalFlights": "364", "Origin_long": "-156.0456314", "Origin_lat": "19.73876583"}
+{"Origin": "LAN", "Origin_airport": "Capital City", "Origin_city": "Lansing", "TotalFlights": "187", "Origin_long": "-84.58735806", "Origin_lat": "42.7787"}
+{"Origin": "LAS", "Origin_airport": "McCarran International", "Origin_city": "Las Vegas", "TotalFlights": "11841", "Origin_long": "-115.1523333", "Origin_lat": "36.08036111"}
+{"Origin": "LAX", "Origin_airport": "Los Angeles International", "Origin_city": "Los Angeles", "TotalFlights": "11915", "Origin_long": "-118.4080744", "Origin_lat": "33.94253611"}
+{"Origin": "LBB", "Origin_airport": "Lubbock International", "Origin_city": "Lubbock", "TotalFlights": "440", "Origin_long": "-101.8227778", "Origin_lat": "33.66363889"}
+{"Origin": "LCH", "Origin_airport": "Lake Charles Regional", "Origin_city": "Lake Charles", "TotalFlights": "96", "Origin_long": "-93.22340361", "Origin_lat": "30.1260975"}
+{"Origin": "LEX", "Origin_airport": "Blue Grass ", "Origin_city": "Lexington", "TotalFlights": "407", "Origin_long": "-84.60538889", "Origin_lat": "38.03697222"}
+{"Origin": "LFT", "Origin_airport": "Lafayette Regional", "Origin_city": "Lafayette", "TotalFlights": "244", "Origin_long": "-91.987655", "Origin_lat": "30.20527972"}
+{"Origin": "LGA", "Origin_airport": "LaGuardia", "Origin_city": "New York", "TotalFlights": "2959", "Origin_long": "-73.87260917", "Origin_lat": "40.77724306"}
+{"Origin": "LGB", "Origin_airport": "Long Beach (Daugherty )", "Origin_city": "Long Beach", "TotalFlights": "452", "Origin_long": "-118.1516111", "Origin_lat": "33.81772222"}
+{"Origin": "LIH", "Origin_airport": "Lihue", "Origin_city": "Lihue", "TotalFlights": "294", "Origin_long": "-159.3389581", "Origin_lat": "21.97598306"}
+{"Origin": "LIT", "Origin_airport": "Adams ", "Origin_city": "Little Rock", "TotalFlights": "521", "Origin_long": "-92.22424556", "Origin_lat": "34.72939611"}
+{"Origin": "LNK", "Origin_airport": "Lincoln Municipal", "Origin_city": "Lincoln", "TotalFlights": "212", "Origin_long": "-96.75925", "Origin_lat": "40.85097222"}
+{"Origin": "LRD", "Origin_airport": "Laredo International", "Origin_city": "Laredo", "TotalFlights": "50", "Origin_long": "-99.46154361", "Origin_lat": "27.54373861"}
+{"Origin": "LWS", "Origin_airport": "Lewiston-Nez Perce County", "Origin_city": "Lewiston", "TotalFlights": "52", "Origin_long": "-117.0153944", "Origin_lat": "46.37449806"}
+{"Origin": "MAF", "Origin_airport": "Midland International", "Origin_city": "Midland", "TotalFlights": "407", "Origin_long": "-102.2019139", "Origin_lat": "31.94252778"}
+{"Origin": "MBS", "Origin_airport": "Mbs International", "Origin_city": "Saginaw", "TotalFlights": "120", "Origin_long": "-84.07964722", "Origin_lat": "43.53291472"}
+{"Origin": "MCI", "Origin_airport": "Kansas City International", "Origin_city": "Kansas City", "TotalFlights": "3862", "Origin_long": "-94.71390556", "Origin_lat": "39.29760528"}
+{"Origin": "MCO", "Origin_airport": "Orlando International", "Origin_city": "Orlando", "TotalFlights": "5030", "Origin_long": "-81.31602778", "Origin_lat": "28.42888889"}
+{"Origin": "MDT", "Origin_airport": "Harrisburg Intl", "Origin_city": "Harrisburg", "TotalFlights": "318", "Origin_long": "-76.76340361", "Origin_lat": "40.19349528"}
+{"Origin": "MDW", "Origin_airport": "Chicago Midway", "Origin_city": "Chicago", "TotalFlights": "6592", "Origin_long": "-87.75242444", "Origin_lat": "41.7859825"}
+{"Origin": "MEM", "Origin_airport": "Memphis International", "Origin_city": "Memphis", "TotalFlights": "710", "Origin_long": "-89.97666667", "Origin_lat": "35.04241667"}
+{"Origin": "MFE", "Origin_airport": "McAllen Miller International", "Origin_city": "McAllen", "TotalFlights": "58", "Origin_long": "-98.23861111", "Origin_lat": "26.17583333"}
+{"Origin": "MFR", "Origin_airport": "Rogue Valley International", "Origin_city": "Medford", "TotalFlights": "474", "Origin_long": "-122.8734978", "Origin_lat": "42.37422778"}
+{"Origin": "MGM", "Origin_airport": "Montgomery Regional Apt", "Origin_city": "Montgomery", "TotalFlights": "31", "Origin_long": "-86.39397611", "Origin_lat": "32.30064417"}
+{"Origin": "MHT", "Origin_airport": "Manchester", "Origin_city": "Manchester", "TotalFlights": "1435", "Origin_long": "-71.43705583", "Origin_lat": "42.93451639"}
+{"Origin": "MIA", "Origin_airport": "Miami International", "Origin_city": "Miami", "TotalFlights": "448", "Origin_long": "-80.29055556", "Origin_lat": "25.79325"}
+{"Origin": "MKE", "Origin_airport": "General Mitchell International", "Origin_city": "Milwaukee", "TotalFlights": "1653", "Origin_long": "-87.89658333", "Origin_lat": "42.94722222"}
+{"Origin": "MLB", "Origin_airport": "Melbourne International ", "Origin_city": "Melbourne", "TotalFlights": "1", "Origin_long": "-80.64580556", "Origin_lat": "28.10275"}
+{"Origin": "MLI", "Origin_airport": "Quad City", "Origin_city": "Moline", "TotalFlights": "140", "Origin_long": "-90.50753917", "Origin_lat": "41.44852639"}
+{"Origin": "MLU", "Origin_airport": "Monroe Regional", "Origin_city": "Monroe", "TotalFlights": "59", "Origin_long": "-92.03768778", "Origin_lat": "32.51086556"}
+{"Origin": "MOB", "Origin_airport": "Mobile Regional", "Origin_city": "Mobile", "TotalFlights": "130", "Origin_long": "-88.24283333", "Origin_lat": "30.69141667"}
+{"Origin": "MOD", "Origin_airport": "Modesto City-County-Harry Sham ", "Origin_city": "Modesto", "TotalFlights": "259", "Origin_long": "-120.9544214", "Origin_lat": "37.62581722"}
+{"Origin": "MRY", "Origin_airport": "Monterey Peninsula", "Origin_city": "Monterey", "TotalFlights": "611", "Origin_long": "-121.8429478", "Origin_lat": "36.5869825"}
+{"Origin": "MSN", "Origin_airport": "Dane County Regional", "Origin_city": "Madison", "TotalFlights": "453", "Origin_long": "-89.33751361", "Origin_lat": "43.13985778"}
+{"Origin": "MSO", "Origin_airport": "Missoula International", "Origin_city": "Missoula", "TotalFlights": "273", "Origin_long": "-114.0905556", "Origin_lat": "46.91630556"}
+{"Origin": "MSP", "Origin_airport": "Minneapolis-St Paul Intl", "Origin_city": "Minneapolis", "TotalFlights": "1309", "Origin_long": "-93.2169225", "Origin_lat": "44.88054694"}
+{"Origin": "MSY", "Origin_airport": "New Orleans International ", "Origin_city": "New Orleans", "TotalFlights": "1943", "Origin_long": "-90.25802778", "Origin_lat": "29.99338889"}
+{"Origin": "MTJ", "Origin_airport": "Montrose Regional", "Origin_city": "Montrose", "TotalFlights": "225", "Origin_long": "-107.8938333", "Origin_lat": "38.50886722"}
+{"Origin": "MYR", "Origin_airport": "Myrtle Beach International", "Origin_city": "Myrtle Beach", "TotalFlights": "240", "Origin_long": "-78.92833333", "Origin_lat": "33.67975"}
+{"Origin": "OAK", "Origin_airport": "Metropolitan Oakland International", "Origin_city": "Oakland", "TotalFlights": "4729", "Origin_long": "-122.2207167", "Origin_lat": "37.72129083"}
+{"Origin": "OGG", "Origin_airport": "Kahului", "Origin_city": "Kahului", "TotalFlights": "409", "Origin_long": "-156.4304578", "Origin_lat": "20.89864972"}
+{"Origin": "OKC", "Origin_airport": "Will Rogers World", "Origin_city": "Oklahoma City", "TotalFlights": "1447", "Origin_long": "-97.60073389", "Origin_lat": "35.39308833"}
+{"Origin": "OMA", "Origin_airport": "Eppley Airfield", "Origin_city": "Omaha", "TotalFlights": "1378", "Origin_long": "-95.89417306", "Origin_lat": "41.30251861"}
+{"Origin": "ONT", "Origin_airport": "Ontario International", "Origin_city": "Ontario", "TotalFlights": "2959", "Origin_long": "-117.6011944", "Origin_lat": "34.056"}
+{"Origin": "ORD", "Origin_airport": "Chicago O'Hare International", "Origin_city": "Chicago", "TotalFlights": "14549", "Origin_long": "-87.90446417", "Origin_lat": "41.979595"}
+{"Origin": "ORF", "Origin_airport": "Norfolk International", "Origin_city": "Norfolk", "TotalFlights": "1015", "Origin_long": "-76.20122222", "Origin_lat": "36.89461111"}
+{"Origin": "OXR", "Origin_airport": "Oxnard", "Origin_city": "Oxnard", "TotalFlights": "113", "Origin_long": "-119.2072164", "Origin_lat": "34.20080083"}
+{"Origin": "PBI", "Origin_airport": "Palm Beach International", "Origin_city": "West Palm Beach", "TotalFlights": "941", "Origin_long": "-80.09559417", "Origin_lat": "26.68316194"}
+{"Origin": "PDX", "Origin_airport": "Portland Intl", "Origin_city": "Portland", "TotalFlights": "2910", "Origin_long": "-122.5975", "Origin_lat": "45.58872222"}
+{"Origin": "PHL", "Origin_airport": "Philadelphia Intl", "Origin_city": "Philadelphia", "TotalFlights": "6222", "Origin_long": "-75.24114083", "Origin_lat": "39.87195278"}
+{"Origin": "PHX", "Origin_airport": "Phoenix Sky Harbor International", "Origin_city": "Phoenix", "TotalFlights": "15190", "Origin_long": "-112.0080556", "Origin_lat": "33.43416667"}
+{"Origin": "PIA", "Origin_airport": "Greater Peoria Regional", "Origin_city": "Peoria", "TotalFlights": "176", "Origin_long": "-89.69330556", "Origin_lat": "40.66424333"}
+{"Origin": "PIH", "Origin_airport": "Pocatello Regional", "Origin_city": "Pocatello", "TotalFlights": "154", "Origin_long": "-112.5958611", "Origin_lat": "42.91130556"}
+{"Origin": "PIT", "Origin_airport": "Pittsburgh International", "Origin_city": "Pittsburgh", "TotalFlights": "2371", "Origin_long": "-80.23287083", "Origin_lat": "40.49146583"}
+{"Origin": "PMD", "Origin_airport": "Palmdale Production Flight", "Origin_city": "Palmdale", "TotalFlights": "57", "Origin_long": "-118.0845528", "Origin_lat": "34.62938889"}
+{"Origin": "PNS", "Origin_airport": "Pensacola Regional", "Origin_city": "Pensacola", "TotalFlights": "125", "Origin_long": "-87.18744444", "Origin_lat": "30.47330556"}
+{"Origin": "PSC", "Origin_airport": "Tri-Cities", "Origin_city": "Pasco", "TotalFlights": "231", "Origin_long": "-119.1190292", "Origin_lat": "46.26468028"}
+{"Origin": "PSP", "Origin_airport": "Palm Springs International", "Origin_city": "Palm Springs", "TotalFlights": "753", "Origin_long": "-116.5062531", "Origin_lat": "33.82921556"}
+{"Origin": "PVD", "Origin_airport": "Theodore F Green State", "Origin_city": "Providence", "TotalFlights": "1624", "Origin_long": "-71.42822111", "Origin_lat": "41.72399917"}
+{"Origin": "PWM", "Origin_airport": "Portland International Jetport", "Origin_city": "Portland", "TotalFlights": "254", "Origin_long": "-70.30875", "Origin_lat": "43.64616667"}
+{"Origin": "RAP", "Origin_airport": "Rapid City Regional", "Origin_city": "Rapid City", "TotalFlights": "242", "Origin_long": "-103.0573708", "Origin_lat": "44.04532139"}
+{"Origin": "RDD", "Origin_airport": "Redding Municipal", "Origin_city": "Redding", "TotalFlights": "152", "Origin_long": "-122.2934019", "Origin_lat": "40.50898361"}
+{"Origin": "RDM", "Origin_airport": "Roberts ", "Origin_city": "Redmond", "TotalFlights": "297", "Origin_long": "-121.1499633", "Origin_lat": "44.25406722"}
+{"Origin": "RDU", "Origin_airport": "Raleigh-Durham International", "Origin_city": "Raleigh", "TotalFlights": "2473", "Origin_long": "-78.78747222", "Origin_lat": "35.87763889"}
+{"Origin": "RFD", "Origin_airport": "Greater Rockford", "Origin_city": "Rockford", "TotalFlights": "58", "Origin_long": "-89.09721111", "Origin_lat": "42.19536389"}
+{"Origin": "RIC", "Origin_airport": "Richmond International", "Origin_city": "Richmond", "TotalFlights": "746", "Origin_long": "-77.31966667", "Origin_lat": "37.50516667"}
+{"Origin": "RNO", "Origin_airport": "Reno/Tahoe International", "Origin_city": "Reno", "TotalFlights": "1979", "Origin_long": "-119.7680647", "Origin_lat": "39.49857611"}
+{"Origin": "ROA", "Origin_airport": "Roanoke Regional/ Woodrum ", "Origin_city": "Roanoke", "TotalFlights": "104", "Origin_long": "-79.97542833", "Origin_lat": "37.32546833"}
+{"Origin": "ROC", "Origin_airport": "Greater Rochester Int'l", "Origin_city": "Rochester", "TotalFlights": "489", "Origin_long": "-77.67238389", "Origin_lat": "43.11886611"}
+{"Origin": "RSW", "Origin_airport": "Southwest Florida International", "Origin_city": "Ft. Myers", "TotalFlights": "664", "Origin_long": "-81.75516667", "Origin_lat": "26.53616667"}
+{"Origin": "SAN", "Origin_airport": "San Diego International-Lindbergh ", "Origin_city": "San Diego", "TotalFlights": "5155", "Origin_long": "-117.1896567", "Origin_lat": "32.73355611"}
+{"Origin": "SAT", "Origin_airport": "San Antonio International", "Origin_city": "San Antonio", "TotalFlights": "2399", "Origin_long": "-98.46977778", "Origin_lat": "29.53369444"}
+{"Origin": "SAV", "Origin_airport": "Savannah International", "Origin_city": "Savannah", "TotalFlights": "589", "Origin_long": "-81.20213889", "Origin_lat": "32.12758333"}
+{"Origin": "SBA", "Origin_airport": "Santa Barbara Municipal", "Origin_city": "Santa Barbara", "TotalFlights": "861", "Origin_long": "-119.8403733", "Origin_lat": "34.42621194"}
+{"Origin": "SBN", "Origin_airport": "South Bend Regional", "Origin_city": "South Bend", "TotalFlights": "196", "Origin_long": "-86.31847417", "Origin_lat": "41.70895361"}
+{"Origin": "SBP", "Origin_airport": "San Luis Obispo Co-McChesney ", "Origin_city": "San Luis Obispo", "TotalFlights": "420", "Origin_long": "-120.6423931", "Origin_lat": "35.23705806"}
+{"Origin": "SDF", "Origin_airport": "Louisville International-Standiford ", "Origin_city": "Louisville", "TotalFlights": "1040", "Origin_long": "-85.736", "Origin_lat": "38.17438889"}
+{"Origin": "SEA", "Origin_airport": "Seattle-Tacoma Intl", "Origin_city": "Seattle", "TotalFlights": "2956", "Origin_long": "-122.3093131", "Origin_lat": "47.44898194"}
+{"Origin": "SFO", "Origin_airport": "San Francisco International", "Origin_city": "San Francisco", "TotalFlights": "8616", "Origin_long": "-122.3748433", "Origin_lat": "37.61900194"}
+{"Origin": "SGF", "Origin_airport": "Springfield-Branson Regional", "Origin_city": "Springfield", "TotalFlights": "292", "Origin_long": "-93.38685806", "Origin_lat": "37.24432611"}
+{"Origin": "SGU", "Origin_airport": "St George Muni", "Origin_city": "St George", "TotalFlights": "308", "Origin_long": "-113.5930556", "Origin_lat": "37.09058333"}
+{"Origin": "SHV", "Origin_airport": "Shreveport Regional", "Origin_city": "Shreveport", "TotalFlights": "90", "Origin_long": "-93.82559833", "Origin_lat": "32.4466275"}
+{"Origin": "SJC", "Origin_airport": "San Jose International", "Origin_city": "San Jose", "TotalFlights": "3277", "Origin_long": "-121.9290089", "Origin_lat": "37.36186194"}
+{"Origin": "SJU", "Origin_airport": "Luis Munoz Marin International", "Origin_city": "San Juan", "TotalFlights": "324", "Origin_long": "-66.00183333", "Origin_lat": "18.43941667"}
+{"Origin": "SLC", "Origin_airport": "Salt Lake City Intl", "Origin_city": "Salt Lake City", "TotalFlights": "9034", "Origin_long": "-111.9777731", "Origin_lat": "40.78838778"}
+{"Origin": "SLE", "Origin_airport": "McNary Fld", "Origin_city": "Salem", "TotalFlights": "54", "Origin_long": "-123.0025", "Origin_lat": "44.90952778"}
+{"Origin": "SMF", "Origin_airport": "Sacramento International", "Origin_city": "Sacramento", "TotalFlights": "3866", "Origin_long": "-121.5907669", "Origin_lat": "38.69542167"}
+{"Origin": "SMX", "Origin_airport": "Santa Maria Pub/Capt G Allan Hancock ", "Origin_city": "Santa Maria", "TotalFlights": "149", "Origin_long": "-120.4575825", "Origin_lat": "34.89924833"}
+{"Origin": "SNA", "Origin_airport": "John Wayne /Orange Co", "Origin_city": "Santa Ana", "TotalFlights": "2059", "Origin_long": "-117.8682225", "Origin_lat": "33.67565861"}
+{"Origin": "SPI", "Origin_airport": "Capital", "Origin_city": "Springfield", "TotalFlights": "150", "Origin_long": "-89.67761861", "Origin_lat": "39.84395194"}
+{"Origin": "SRQ", "Origin_airport": "Sarasota Bradenton International", "Origin_city": "Sarasota", "TotalFlights": "99", "Origin_long": "-82.55411111", "Origin_lat": "27.39533333"}
+{"Origin": "STL", "Origin_airport": "Lambert-St Louis International", "Origin_city": "St Louis", "TotalFlights": "2809", "Origin_long": "-90.35998972", "Origin_lat": "38.74768694"}
+{"Origin": "STT", "Origin_airport": "Cyril E. King", "Origin_city": "Charlotte Amalie", "TotalFlights": "95", "Origin_long": "-64.97336111", "Origin_lat": "18.33730556"}
+{"Origin": "STX", "Origin_airport": "Henry E. Rohlsen ", "Origin_city": "Christiansted", "TotalFlights": "4", "Origin_long": "-64.79855556", "Origin_lat": "17.70188889"}
+{"Origin": "SUN", "Origin_airport": "Friedman Memorial", "Origin_city": "Hailey", "TotalFlights": "222", "Origin_long": "-114.2965903", "Origin_lat": "43.50484139"}
+{"Origin": "SYR", "Origin_airport": "Syracuse-Hancock Intl", "Origin_city": "Syracuse", "TotalFlights": "545", "Origin_long": "-76.10631056", "Origin_lat": "43.11118694"}
+{"Origin": "TEX", "Origin_airport": "Telluride Regional", "Origin_city": "Telluride", "TotalFlights": "54", "Origin_long": "-107.90848", "Origin_lat": "37.95375861"}
+{"Origin": "TLH", "Origin_airport": "Tallahassee Regional", "Origin_city": "Tallahassee", "TotalFlights": "59", "Origin_long": "-84.35033333", "Origin_lat": "30.39652778"}
+{"Origin": "TPA", "Origin_airport": "Tampa International ", "Origin_city": "Tampa", "TotalFlights": "3430", "Origin_long": "-82.53325", "Origin_lat": "27.97547222"}
+{"Origin": "TRI", "Origin_airport": "Tri-Cities Regional", "Origin_city": "Bristol", "TotalFlights": "28", "Origin_long": "-82.40742056", "Origin_lat": "36.47521417"}
+{"Origin": "TUL", "Origin_airport": "Tulsa International", "Origin_city": "Tulsa", "TotalFlights": "1136", "Origin_long": "-95.88824167", "Origin_lat": "36.19837222"}
+{"Origin": "TUS", "Origin_airport": "Tucson International", "Origin_city": "Tucson", "TotalFlights": "1891", "Origin_long": "-110.9410278", "Origin_lat": "32.11608333"}
+{"Origin": "TVC", "Origin_airport": "Cherry Capital", "Origin_city": "Traverse City", "TotalFlights": "90", "Origin_long": "-85.582235", "Origin_lat": "44.74144472"}
+{"Origin": "TWF", "Origin_airport": "Joslin Field - Magic Valley", "Origin_city": "Twin Falls", "TotalFlights": "249", "Origin_long": "-114.4877356", "Origin_lat": "42.48180389"}
+{"Origin": "TYS", "Origin_airport": "McGhee-Tyson", "Origin_city": "Knoxville", "TotalFlights": "387", "Origin_long": "-83.99285583", "Origin_lat": "35.81248722"}
+{"Origin": "VPS", "Origin_airport": "Eglin Air Force Base", "Origin_city": "Valparaiso", "TotalFlights": "79", "Origin_long": "-86.5254", "Origin_lat": "30.48325"}
+{"Origin": "XNA", "Origin_airport": "Northwest Arkansas Regional", "Origin_city": "Fayetteville/Springdale/Rogers", "TotalFlights": "353", "Origin_long": "-94.30681111", "Origin_lat": "36.28186944"}
+{"Origin": "YKM", "Origin_airport": "Yakima Air Terminal", "Origin_city": "Yakima", "TotalFlights": "33", "Origin_long": "-120.5440594", "Origin_lat": "46.56816972"}
+{"Origin": "YUM", "Origin_airport": "Yuma MCAS-Yuma International", "Origin_city": "Yuma", "TotalFlights": "380", "Origin_long": "-114.6059722", "Origin_lat": "32.65658333"}
