@@ -28,10 +28,10 @@ Repo for Working with Open Data (Spring 2014 edition), a course at the School of
   21. [Increasing Specificity in Projects](http://is.gd/wwod1421)
   22. [Starter Notebooks](http://is.gd/wwod1422)
   23. [Replicating Our Work](http://is.gd/wwod1423)
-  24. 
-  25. 
-  26. 
-  27. Class Presentations (I)
-  28. Class Presentations (II)
+  24. [IPython team](http://is.gd/wwod1424)
+  25. [Wrapping Up Work on Projects](http://is.gd/wwod1425)
+  26. [Open Data Talk by Lisa Green](http://is.gd/wwod1426)
+  27. [Presentations I](http://is.gd/wwod1427)
+  28. [Presentations II](http://is.gd/wwod1428)
   29. Open House
 
