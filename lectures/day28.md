@@ -5,7 +5,7 @@
 # Goals Today
 
 * course evaluation:  please provide honest feedback -- it's very helpful to me and the I School.
-* I've graded everything that has been submitted, except the Baby Names notebook.  Expect at least 15/20 if you've submitted a minimally
+* I've graded everything that has been submitted, except the Baby Names notebook.  Expect at least 10/20 if you've submitted a minimally
 functional notebook.  I have to work through which ones have made good faith creative efforts in exploring the data.
 * If you still plan to submit a [tutorial notebook](http://rdhyee.github.io/wwod14/day19.html#%283%29), you need talk to me about getting an extension past the deadline (which was on [Monday](http://rdhyee.github.io/wwod14/day20.html#&284%29).)
 * presentations
