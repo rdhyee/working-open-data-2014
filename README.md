@@ -33,5 +33,5 @@ Repo for Working with Open Data (Spring 2014 edition), a course at the School of
   26. [Open Data Talk by Lisa Green](http://is.gd/wwod1426)
   27. [Presentations I](http://is.gd/wwod1427)
   28. [Presentations II](http://is.gd/wwod1428)
-  29. Open House
+  29. [Open House](https://github.com/working-with-open-data-2014/project-organization/wiki/Working-with-Open-Data-2014-Projects)
 
