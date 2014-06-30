@@ -244,3 +244,9 @@ df.apply(lambda s: "".join(s), axis=1)
 
 df.apply(lambda s: s['upper'] + s['lower'], axis=1)
 
+# <codecell>
+
+
+# <codecell>
+
+
